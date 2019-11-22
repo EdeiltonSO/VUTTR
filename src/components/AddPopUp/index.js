@@ -154,7 +154,11 @@ class AddPopUp extends Component {
               >
                 <span>Cancel</span>
               </SecondaryButton>
-              <PrimaryButton onClick={this.checkAndSend} styleBtn="success">
+              <PrimaryButton
+                id="ok-button"
+                onClick={this.checkAndSend}
+                styleBtn="success"
+              >
                 <span>Add tool</span>
               </PrimaryButton>
             </Actions>

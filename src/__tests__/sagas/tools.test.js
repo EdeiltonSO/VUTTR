@@ -2,7 +2,7 @@
 import { runSaga } from "redux-saga";
 import api from "../../services/api";
 import MockAdapter from "axios-mock-adapter";
-import { getTools } from "../../store/sagas/tools";
+import { getTools, addTool } from "../../store/sagas/tools";
 import { Creators as ToolsActions } from "../../store/ducks/tools";
 
 const apiMock = new MockAdapter(api);

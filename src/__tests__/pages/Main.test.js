@@ -43,7 +43,7 @@ const INITIAL_STATE = {
 				title: "json-server",
 				link: "https://github.com/typicode/json-server",
 				description: "Fake REST API based on a json schema.",
-				tags: ["api", "json", "schema", "node", "github", "rest"]
+				tags: ["api", "json", "schema", "node", "github", "#rest"]
 			}
 		],
 		loading: false,
