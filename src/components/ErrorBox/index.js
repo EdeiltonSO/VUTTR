@@ -18,7 +18,7 @@ const ErrorBox = ({ error: { visible, message, type }, closeError }) =>
 	);
 
 ErrorBox.propTypes = {
-	hideError: PropTypes.func,
+	closeError: PropTypes.func.isRequired,
 	error: PropTypes.shape({
 		visible: PropTypes.bool,
 		message: PropTypes.string,

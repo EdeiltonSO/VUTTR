@@ -118,7 +118,7 @@ class Main extends Component {
                       link={tool.link}
                       description={tool.description}
                       tags={tool.tags.map(tag => tag)}
-                      hideShowRemove={this.hideShowRemovePopUpAction}
+                      hideShowRemove={this.props.showRemovePopUpAction}
                     />
                   )
                 )

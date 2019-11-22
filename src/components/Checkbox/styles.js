@@ -16,8 +16,7 @@ export const Container = styled.label`
 
   /* Ocultando a checkbox padrão */
   input {
-    width: 0;
-    height: 0;
+    display: none;
   }
 
   /* Criando checkbox customizada */

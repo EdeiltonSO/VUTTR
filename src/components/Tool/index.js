@@ -12,7 +12,7 @@ const Tool = ({ id, link, name, description, tags, hideShowRemove }) => {
 	return (
 		<Container>
 			<Header>
-				<Title href={link}>{name}</Title>
+				<Title href={link ? link : null}>{name}</Title>
 				<QuartiaryButton
 					styleBtn="danger"
 					onClick={() => hideShowRemove(id, name)}
@@ -37,7 +37,7 @@ const Tool = ({ id, link, name, description, tags, hideShowRemove }) => {
 
 Tool.propTypes = {
 	id: PropTypes.number.isRequired,
-	link: PropTypes.string,
+	link: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
 	name: PropTypes.string.isRequired,
 	description: PropTypes.string.isRequired,
 	tags: PropTypes.array.isRequired,
