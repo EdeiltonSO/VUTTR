@@ -52,7 +52,7 @@ export const Container = styled.label`
     width: 5px;
     height: 10px;
     border: solid #fff;
-    border-width: 0 1.5px 1.5px 0;
+    border-width: 0 1.7px 1.7px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
